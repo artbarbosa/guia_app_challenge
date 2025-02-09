@@ -13,14 +13,14 @@ import '../widgets/app_bar/location_selector.dart';
 import '../widgets/map_button.dart';
 import '../widgets/motel_card/motel_card.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class MotelListPage extends StatefulWidget {
+  const MotelListPage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<MotelListPage> createState() => _MotelListPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _MotelListPageState extends State<MotelListPage> {
   late IGetMotelsListBloc getMotelsListBloc;
 
   @override

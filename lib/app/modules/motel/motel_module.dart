@@ -7,7 +7,7 @@ import 'external/datasources/motel_datasource.dart';
 import 'infra/datasources/motel_datasource.dart';
 import 'infra/respositories/motel_repository.dart';
 import 'presentation/bloc/get_motels_bloc.dart';
-import 'presentation/ui/pages/home_page.dart';
+import 'presentation/ui/pages/motel_list_page.dart';
 
 class MotelModule extends Module {
   @override
@@ -28,6 +28,6 @@ class MotelModule extends Module {
 
   @override
   void routes(r) {
-    r.child('/', child: (context) => const HomePage());
+    r.child('/', child: (context) => const MotelListPage());
   }
 }
