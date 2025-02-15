@@ -1,5 +1,8 @@
 # Guia Challenge App
 
+## Layout
+![Demonstração](screenshots/guia.gif)
+
 # Padrões do Projeto
 
 ## Flutter Version
@@ -38,6 +41,4 @@ Para verificar o comportamento das unidades na aplicação e manter um desenvolv
   - `flutter pub get`
   - `flutter run`
 
-## Layout
-![Demonstração](screenshots/guia.gif)
 
